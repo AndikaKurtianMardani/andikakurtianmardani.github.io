@@ -1,0 +1,221 @@
+
+html {
+    position: relative;
+   
+}
+  
+
+
+body {
+    margin-bottom: 100px;
+    margin-top: 50px;
+    background-color: #333;
+    color: #eaeaea;
+
+}
+
+.jumbotron{
+    height: 580px;
+    background-image: url('../img/backgroundhtm.jpeg');
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: 0 -100px;
+    color: #eaeaea;
+    overflow: hidden;
+}
+
+.jumbotron img{
+    width: 250px;
+    box-shadow: 1px 1px 10px rgba(0,0,0,0,5);
+    
+  
+}
+
+.jumbotron{
+    text-shadow: 1px 1px 10px rgba(0,0,0,0,5);
+}
+
+.about img{
+    border: 5px solid white;
+}
+
+
+
+
+ hr{
+    width: 250px;
+    border-top: 3px solid white;
+}
+
+.puki hr{
+    width: 700px;
+    border-top: 3px solid #999;
+
+}
+
+section {
+    min-height: 700px;
+}
+
+
+.work{
+    background-color: #333;
+    
+}
+.work .thumbnail{
+  opacity: 0;
+  transform: translate(0, -40px);
+  transition: .5s;
+}
+
+.work .thumbnail.muncul{
+  opacity: 1;
+  transform: translate(0,0);
+}
+
+
+footer {
+    position: absolute;
+    bottom: 0;
+    width :100%;
+    height: 123px;
+    background-color: black;
+    padding-top:0px ;
+    margin-top: 100px;
+
+}
+
+footer p {
+    color: #aaa;
+    font: size 0.9em ;
+    padding: 10px;
+}
+
+footer p i {
+    color: salmon;
+
+}
+
+.judul {
+    
+    color : green;
+   font-size:25px;
+}
+
+
+/* ===== SKILLS =====*/
+.skills__container{
+    row-gap: 2rem;
+    text-align: center;
+  }
+  .skills__subtitle{
+    margin-bottom: var(--mb-2);
+  }
+  .skills__text{
+    margin-bottom: var(--mb-4);
+  }
+  .skills__data{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+    font-weight: var(--font-semi);
+    padding: .5rem 1rem;
+    margin-bottom: var(--mb-4);
+    border-radius: .5rem;
+    box-shadow: 0 4px 25px rgba(14,36,49,.15);
+  }
+  .skills__icon{
+    font-size: 10rem;
+    margin-right: var(--mb-2);
+    
+  }
+  .skills__names{
+    display: flex;
+    align-items: center;
+  }
+  .skills__bar{
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    background-color: var(--first-color);
+    height: .25rem;
+    border-radius: .5rem;
+    z-index: var(--z-back);
+  }
+  .skills__bar{
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    background-color:white;
+    height: .25rem;
+    border-radius: .5rem;
+    z-index: var(--z-back);
+  }
+  .skills__html{
+    width: 95%;
+    
+  }
+  .skills__css{
+    width: 85%;
+  }
+  .skills__js{
+    width: 55%;
+  }
+  .skills__bootstrap{
+    width: 25%;
+  }
+  .skills__img{
+    border-radius: .5rem;
+  }
+
+  .skills__iconhtml {  
+      font-size: 10rem;
+color: orange;
+  }
+
+  .skills__iconcss {  
+    font-size: 10rem;
+color: blue;
+}
+.skills__iconjs {  
+    font-size: 10rem;
+color: yellow;
+}
+.skills__iconbootstrap {  
+    font-size: 10rem;
+color: purple;
+}
+.about .kemem {
+  opacity: 0;
+  transform: translate(-50 , 0);
+  transition: 2s;
+}
+
+.about .kemem.kememMuncul {
+  opacity: 1;
+  transform: translate(0,0);
+}
+
+.skill .skills__data{
+  opacity: 0;
+  transform: translate(0, -40px);
+  transition: .5s;
+}
+
+.skill .skills__data.skillMuncul{
+  opacity: 1;
+  transform: translate(0,0);
+}
+
+.contact .lontong{
+  opacity: 0;
+  transform: translate(0, -40px);
+  transition: .5s;
+}
+
+.contact .lontong.lontongMuncul{
+  opacity: 1;
+  transform: translate(0,0);
+}
+
