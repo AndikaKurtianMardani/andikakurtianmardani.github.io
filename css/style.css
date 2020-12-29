@@ -153,11 +153,11 @@ footer p i {
     z-index: var(--z-back);
   }
   .skills__html{
-    width: 95%;
+    width: 65%;
     
   }
   .skills__css{
-    width: 85%;
+    width: 60%;
   }
   .skills__js{
     width: 55%;
